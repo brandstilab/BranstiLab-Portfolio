@@ -32,9 +32,16 @@ $(document).ready(function(){
 	
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
-            $("#navigation").css("background-color","#0EB493");
+            $("#navigation").css("background-color","white");
+            $(".nav-item").css("color","#0EB493");
+            $(".logo-img").attr("src", "img/logo2.png");
+            $("#hamburger").css("color", "#0EB493");
+
         } else {
             $("#navigation").css("background-color","rgba(16, 22, 54, 0.2)");
+            $(".nav-item").css("color","white");
+            $(".logo-img").attr("src", "img/logo-white.png");
+            $("#hamburger").css("color", "white");
         }
     });
 	
