@@ -160,6 +160,7 @@ body > section,
 
 .navbar-brand {
   padding: 0;
+  height: fit-content;
 }
 
 .navbar-nav li a {
