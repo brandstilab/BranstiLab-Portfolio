@@ -1101,3 +1101,16 @@ label.error {
   right: 25px;
   z-index: 9;
 }
+
+
+.toast {
+  position: fixed;
+  top: 60px; /* Adjust the top margin to your liking */
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: none; /* Initially hidden */
+  z-index: 1000; /* Ensure the toast is on top of other elements */
+}
